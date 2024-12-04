@@ -1,0 +1,295 @@
+body{
+    margin: 0;
+    font-family: "Josefin Slab", serif;
+    overflow-x: hidden;
+}
+header{
+    background-color: #FF862F;
+    width: 100%;
+    height: 120px;
+    margin: 0;
+}
+
+#logo{
+    width: 10%;
+    height: 15%;
+    position: absolute;
+    left: 650px;
+}
+
+#img1{
+    position: absolute;
+    width: 3%;
+    height:5%;
+    top: 50px;
+    left: 30px;   
+}
+
+#img2{
+    position: absolute;
+    width: 3%;
+    height:5%;
+    top: 25px;
+    left: 120px;   
+}
+
+#img3{
+    position: absolute;
+    width: 3%;
+    height:5%;
+    top: 50px;
+    left: 210px;   
+}
+
+#img4{
+    position: absolute;
+    width: 3%;
+    height:5%;
+    top: 25px;
+    left: 300px;   
+}
+
+#img5{
+    position: absolute;
+    width: 3%;
+    height:5%;
+    top: 50px;
+    left: 390px;   
+}
+
+#img6{
+    position: absolute;
+    width: 3%;
+    height:5%;
+    top: 25px;
+    left: 480px;   
+}
+
+#img7{
+    position: absolute;
+    width: 3%;
+    height:5%;
+    top: 50px;
+    left: 570px;   
+}
+
+#img8{
+    position: absolute;
+    width: 3%;
+    height:5%;
+    top: 25px;
+    left: 660px;   
+}
+
+#img9{
+    position: absolute;
+    width: 3%;
+    height:5%;
+    top: 50px;
+    left: 750px;   
+}
+
+#img10{
+    position: absolute;
+    width: 3%;
+    height:5%;
+    top: 25px;
+    left: 840px;   
+}
+
+#img11{
+    position: absolute;
+    width: 3%;
+    height:5%;
+    top: 50px;
+    left: 930px;   
+}
+
+#img12{
+    position: absolute;
+    width: 3%;
+    height:5%;
+    top: 25px;
+    left: 1020px;   
+}
+
+#img13{
+    position: absolute;
+    width: 3%;
+    height:5%;
+    top: 50px;
+    left: 1110px;   
+}
+
+#img14{
+    position: absolute;
+    width: 3%;
+    height:5%;
+    top: 25px;
+    left: 1200px;   
+}
+
+#img15{
+    position: absolute;
+    width: 3%;
+    height:5%;
+    top: 50px;
+    left: 1290px;   
+}
+
+.fundo-raca{
+    margin-top: 40px;
+    background-color: #D6E8F7;
+    height: 260px;
+}
+
+.fundo-raca img {
+    width: 150px;
+    height: 170px;
+    margin-left: 640px;
+}
+
+.fundo-raca h1 {
+    margin-left: 665px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+
+.fundolaranja{
+    display: flex;
+    background-color: #FF862F;
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.nome{
+    background-color: #D6E8F7;
+    border-radius: 15px;
+    width: 1050px;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 150px;
+
+    h1{
+        margin-top: 20px;
+        text-align: center;
+        font-weight: 400;
+    }
+}
+
+.divisao{
+    display: flex;
+}
+
+.divisao p{
+    max-width: 100px;
+    font-size: 24px;
+    margin-left: 220px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.linha::after{
+    content: '';
+    height: 300px;
+    background-color: #FF862F;
+    display: block;
+    width: 2px; 
+    margin-left: 220px;
+}
+
+
+.fundoazul{
+    display: flex;
+    background-color: #D6E8F7;
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.nome2{
+    background-color: #FF862F;
+    border-radius: 15px;
+    width: 1050px;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 150px;
+
+    h1{
+        margin-top: 20px;
+        text-align: center;
+        font-weight: 400;
+    }
+}
+
+.divisao{
+    display: flex;
+}
+
+.divisao p{
+    max-width: 100px;
+    font-size: 24px;
+    margin-left: 220px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.linha2::after{
+    content: '';
+    height: 300px;
+    background-color: #D6E8F7;
+    display: block;
+    width: 2px; 
+    margin-left: 220px;
+}
+
+.rastro{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.fundolaranja2{
+    padding: 10px;
+    background-color: #FF862F;
+    width: 100%;
+    margin-top: 40px;
+
+    h1{
+        text-align: center;
+        font-size: 48px;
+        font-weight: 400;
+    }
+
+    p{
+        max-width: 70%;
+        font-size: 30px;
+        margin-left: 15%;
+        text-align: center;
+    }
+}
+
+.social-media{
+    display: flex;
+    color: #FEFFEF;
+    margin-left: 38%;
+
+    img{
+        width: 10%;
+        height: 10%;
+    }
+
+    h2{
+        margin-left: -10px;
+        margin-top: 30px;
+        font-size: 30px;
+    }
+}
+
+a{
+    color: #FF862F;
+    position: absolute;
+    left: 20px;
+    top: 125px
+}
